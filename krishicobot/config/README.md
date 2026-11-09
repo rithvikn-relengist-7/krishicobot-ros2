@@ -1,0 +1,1 @@
+Place robot-specific parameter YAML files here after validating the sensor frames, camera calibration, and waypoint map.
