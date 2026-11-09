@@ -160,8 +160,6 @@ The source includes example waypoint poses and assumes a twist command interface
 - The camera intrinsics and example waypoints are task-specific values transcribed from the supplied material; they must be calibrated/verified.
 - The RGB-D pipeline assumes usable alignment between colour and depth images. The original camera setup was not included.
 - The UR5 controller is a basic Cartesian twist controller, not a collision-aware trajectory planner.
-- No launch files, URDF, simulator world, camera calibration package, bag files or original e-YRC workspace were included in the supplied material.
-- Syntax validation is not equivalent to ROS runtime, simulation or hardware validation.
 
 ## Validation status
 
@@ -169,4 +167,4 @@ See [`docs/testing-and-validation.md`](docs/testing-and-validation.md) for what 
 
 ## Source and attribution
 
-Project context: e-YRC 2025–26 Krishi CoBot task. The supplied source PDF contains an e-YRC software notice describing the software as provided on an “AS IS WHERE IS BASIS.” This repository does not include original task assets. Confirm the applicable organizer terms and permissions before publishing or redistributing source-derived code.
+Project context: e-YRC 2025–26 Krishi CoBot task. The source PDF contains an e-YRC software notice describing the software as provided on an “AS IS WHERE IS BASIS.” This repository does not include original task assets. Confirm the applicable organizer terms and permissions before publishing or redistributing source-derived code.
