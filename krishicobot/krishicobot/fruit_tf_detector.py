@@ -26,7 +26,7 @@ class FruitsTF(Node):
         self.declare_parameter("color_topic", "/camera/image_raw")
         self.declare_parameter("depth_topic", "/camera/depth/image_raw")
         self.declare_parameter("show_image", False)
-        self.declare_parameter("team_id", 3614)
+        self.declare_parameter("team_id", "")
 
         self.target_frame = self.get_parameter("target_frame").value
         self.show_image = self.get_parameter("show_image").value
