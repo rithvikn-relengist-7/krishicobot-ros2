@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """OpenCV fruit-colour detection + depth-based 3-D TF publication.
 
-This is a cleaned reconstruction of the FruitsTF node shown in the supplied
+This is a cleaned reconstruction of the FruitsTF node shown in the
 e-YRC source PDF. Camera calibration, HSV thresholds, frames and marker size
 must be verified against the actual camera before running on hardware.
 """
