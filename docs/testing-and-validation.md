@@ -6,9 +6,7 @@
 - Package metadata and entry-point structure have been added.
 - README commands and expected topic interfaces are documented.
 
-These checks do not prove that the ROS nodes run correctly in a ROS graph.
-
-## Runtime validation still required
+## Runtime validation
 
 ### Navigation node
 - [ ] Confirm `/scan` publishes `sensor_msgs/LaserScan`.
@@ -37,4 +35,4 @@ These checks do not prove that the ROS nodes run correctly in a ROS graph.
 
 ## Reporting results
 
-Only add accuracy, latency, navigation success rate, repeatability or hardware-demonstration claims after measuring them. Record the test setup, ROS distribution, robot configuration and number of trials.
+The accuracy, latency, navigation success rate, repeatability or hardware-demonstration measurements are to be added. Record the test setup, ROS distribution, robot configuration and number of trials.
