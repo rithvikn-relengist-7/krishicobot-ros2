@@ -124,7 +124,7 @@ Optional parameters:
 - `depth_topic` (default `/camera/depth/image_raw`)
 - `target_frame` (default `base_link`)
 - `show_image` (default `false`)
-- `team_id` (default `3614`)
+- `team_id` (default `""`)
 
 **Before running:** confirm RGB/depth topic names, depth encoding and units, camera intrinsics, frame IDs, transform availability and HSV thresholds.
 
